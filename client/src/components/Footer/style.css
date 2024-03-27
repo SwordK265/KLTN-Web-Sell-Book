@@ -1,0 +1,133 @@
+.news-letter-footer {
+  background-color: #0b703d;
+  padding: 20px 10px 20px 10px;
+}
+
+.news-letter-footer .news-letter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-letter label {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.news-letter label span {
+  font-size: 14px;
+}
+
+.news-letter .input-group {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.news-letter .input-group-form {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 38px;
+  color: #676767;
+  border: none;
+}
+.news-letter .input-group-form:first-child {
+  width: 180px;
+}
+
+.news-letter .input-group-form:nth-child(2) {
+  width: 280px;
+}
+
+.news-letter .btn-form {
+  width: 170px;
+  color: #0b703d;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.news-letter select {
+  width: 180px;
+}
+
+.footer {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 500px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-footer-left:last-child {
+  margin-right: auto;
+  margin-left: 18px;
+}
+
+.col-footer-left span,
+.col-footer-right span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.col-footer-left ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.col-footer-left li a {
+  display: block;
+  text-decoration: none;
+  color: #888888;
+  padding: 3px 0;
+  font-size: 13px;
+}
+
+.col-footer-left .logo-app {
+  display: flex;
+  margin: 10px 0;
+  gap: 12px;
+}
+
+.footer-right {
+  width: 620px;
+  display: flex;
+  gap: 30px;
+}
+
+.col-footer-right {
+  width: 200px;
+}
+
+.footer-right .icon-payment {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+.footer-right .logo-shipper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  gap: 8px;
+}
+.footer-right .logo-shipper img:first-child {
+  max-width: 95%;
+}
+.footer-right .icon-payment img {
+  border: solid 1px #ccc;
+}

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Main Color: #0b703d */
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --green-color: #0b703d;
+  --grey-color: #f1f1f1;
+}
+
+#webpack-dev-server-client-overlay {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 62.5% (10px)
+} */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f1f1f1;
+  font-size: 13px;
+}
